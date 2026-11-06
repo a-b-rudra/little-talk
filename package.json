@@ -1,0 +1,23 @@
+{
+  "name": "little-talk-remotion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:preview": "esbuild src/preview-entry.tsx --bundle --format=iife --target=es2020 --outfile=static/preview.bundle.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.540",
+    "@remotion/player": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
+    "esbuild": "0.25.0",
+    "typescript": "5.8.3"
+  }
+}

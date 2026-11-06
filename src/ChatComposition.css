@@ -1,0 +1,379 @@
+.remotion-root {
+  overflow: hidden;
+  background: #e9edf2;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #101114;
+}
+
+.remotion-root,
+.remotion-root * {
+  box-sizing: border-box;
+}
+
+.remotion-logical-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: top left;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 50% 49%, rgba(214, 230, 219, 0.68), transparent 40%),
+    radial-gradient(ellipse at 80% 16%, rgba(225, 233, 240, 0.5), transparent 35%),
+    #f7f9f8;
+}
+
+.remotion-stage-card {
+  position: absolute;
+  inset: 10px;
+  border: 1px solid #edf0ef;
+  border-radius: 19px;
+  background:
+    radial-gradient(ellipse at 50% 49%, rgba(214, 230, 219, 0.68), transparent 40%),
+    radial-gradient(ellipse at 80% 16%, rgba(225, 233, 240, 0.5), transparent 35%),
+    #f7f9f8;
+}
+
+.remotion-phone {
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+  border: 5px solid #27292e;
+  border-radius: 40px;
+  background: #fff;
+  box-shadow: 0 19px 36px rgba(31, 40, 36, 0.2), 0 4px 8px rgba(31, 40, 36, 0.1);
+}
+
+.remotion-screen {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 34px;
+  background: #fff;
+}
+
+.remotion-status {
+  height: 37px;
+  flex: 0 0 37px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 22px 0;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.remotion-status-icons {
+  width: 48px;
+  height: 11px;
+  display: block;
+  overflow: visible;
+  fill: #141518;
+  stroke: #141518;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5;
+}
+
+.remotion-wifi-glyph {
+  fill: none;
+}
+
+.remotion-header {
+  position: relative;
+  height: 74px;
+  flex: 0 0 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 16px 7px;
+}
+
+.remotion-back {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: #087cff;
+  font-size: 13px;
+}
+
+.remotion-back span {
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  border-bottom: 2px solid #087cff;
+  border-left: 2px solid #087cff;
+}
+
+.remotion-contact {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: grid;
+  justify-items: center;
+  transform: translateX(-50%);
+}
+
+.remotion-avatar {
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #cadcf2, #ebd8d1);
+  color: #63768e;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.remotion-avatar.has-emoji {
+  font-size: 20px;
+}
+
+.remotion-contact-name {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 2px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.remotion-contact-name i {
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg) translateY(-1px);
+  border-right: 1px solid #8e9198;
+  border-bottom: 1px solid #8e9198;
+}
+
+.remotion-video-call {
+  width: 28px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  color: #087cff;
+}
+
+.remotion-video-call svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.remotion-divider {
+  height: 1px;
+  flex: 0 0 1px;
+  background: #e8e8eb;
+}
+
+.remotion-chat-viewport {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+  padding: 6px 10px 9px;
+}
+
+.remotion-chat-list {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  will-change: transform;
+}
+
+.remotion-date {
+  height: 24px;
+  flex: 0 0 24px;
+  padding: 3px 0 7px;
+  color: #92949a;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 10px;
+  text-align: center;
+}
+
+.remotion-message {
+  width: fit-content;
+  max-width: 82%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.remotion-message.is-incoming {
+  align-self: flex-start;
+}
+
+.remotion-message.is-outgoing {
+  align-self: flex-end;
+  align-items: flex-end;
+}
+
+.remotion-bubble {
+  width: fit-content;
+  max-width: 100%;
+  padding: 8px 11px 9px;
+  border-radius: 17px;
+  font-size: 11px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.remotion-bubble.is-incoming {
+  border-bottom-left-radius: 5px;
+  background: #e9e9eb;
+  color: #151518;
+}
+
+.remotion-bubble.is-outgoing {
+  border-bottom-right-radius: 5px;
+  background: #0a84ff;
+  color: #fff;
+}
+
+.remotion-message-time {
+  padding: 0 4px;
+  color: #8e9097;
+  font-size: 8px;
+  line-height: 1.2;
+}
+
+.remotion-typing {
+  height: 28px;
+  flex: 0 0 28px;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 2px;
+  padding: 0 10px;
+  border-radius: 15px;
+  background: #e9e9eb;
+}
+
+.remotion-typing span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #92949a;
+}
+
+.remotion-composer {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 11px 3px;
+  border-top: 1px solid #e8e8eb;
+}
+
+.remotion-plus {
+  width: 19px;
+  height: 19px;
+  flex: 0 0 19px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #f1f1f5;
+  color: #777a82;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.remotion-composer-field {
+  min-width: 0;
+  height: 25px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 9px;
+  border: 1px solid #d5d5da;
+  border-radius: 15px;
+  color: #a1a2a8;
+  font-size: 9px;
+}
+
+.remotion-composer-field.is-typing {
+  height: 100%;
+  justify-content: flex-start;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #25252a;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.remotion-composer-field > span {
+  min-width: 0;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+.remotion-cursor {
+  width: 1px;
+  height: 1em;
+  display: inline-block;
+  margin-left: 1px;
+  background: currentColor;
+  vertical-align: text-bottom;
+}
+
+.remotion-dictation {
+  color: #777a82;
+  font-size: 13px;
+  font-style: normal;
+  transform: rotate(-45deg);
+}
+
+.remotion-send {
+  width: 21px;
+  height: 21px;
+  flex: 0 0 21px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #0a84ff;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.remotion-mic {
+  width: 15px;
+  height: 19px;
+  flex: 0 0 19px;
+  fill: none;
+  stroke: #8b8d93;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.remotion-home-area {
+  height: 12px;
+  flex: 0 0 12px;
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+}
+
+.remotion-home-indicator {
+  width: 80px;
+  height: 4px;
+  border-radius: 5px;
+  background: #151518;
+}

@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+node_modules/
+.DS_Store
+static/preview.bundle.js
+static/preview.bundle.css
+*.mp4
+!examples/conversation-demo.mp4

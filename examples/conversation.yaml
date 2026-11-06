@@ -1,0 +1,30 @@
+contact: Maya Chen
+start_time: "21:14"
+history:
+  - sender: Maya
+    timestamp: "21:12"
+    text: Did you make it home?
+  - sender: you
+    timestamp: "21:13"
+    text: "Just got in, thanks 😊"
+messages:
+  - sender: Maya
+    reply_delay: 1.1
+    typing_duration: 1.1
+    text: "You left your umbrella here ☔️"
+  - sender: you
+    reply_delay: 1.4
+    typing_duration: 2.2
+    text: "A pretty good excuse to come back, I think."
+  - sender: Maya
+    reply_delay: 1.2
+    typing_duration: 1.4
+    text: "I was hoping you'd say that 😊"
+  - sender: you
+    reply_delay: 1.6
+    typing_duration: 1.6
+    text: "Tomorrow? Coffee's on me ☕️"
+  - sender: Maya
+    reply_delay: 1.0
+    typing_duration: 1.0
+    text: "It's a date 💛"

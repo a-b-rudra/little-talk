@@ -1,0 +1,290 @@
+{
+  "avatar": "👻",
+  "contact": "X",
+  "start_time": "23:40",
+  "history": [
+    {
+      "sender": "...",
+      "timestamp": "20:52",
+      "text": "did you sleep at all 😭"
+    },
+    { "sender": "you", "timestamp": "20:52", "text": "define sleep" },
+    {
+      "sender": "...",
+      "timestamp": "20:53",
+      "text": "sending that song again. second verse. listen properly this time 🎧"
+    },
+    { "sender": "you", "timestamp": "21:07", "text": "okay" },
+    { "sender": "you", "timestamp": "21:07", "text": "i hate that it works" },
+    { "sender": "...", "timestamp": "21:08", "text": "told you 😌" },
+    {
+      "sender": "you",
+      "timestamp": "21:09",
+      "text": "did you finish that thing you were writing?"
+    },
+    {
+      "sender": "...",
+      "timestamp": "21:10",
+      "text": "half. the second half keeps running away from me 🏃"
+    },
+    { "sender": "you", "timestamp": "21:10", "text": "the good ones do" },
+    { "sender": "...", "timestamp": "22:31", "text": "just thinking" },
+    { "sender": "you", "timestamp": "22:31", "text": "dangerous 🙂" },
+    { "sender": "...", "timestamp": "23:38", "text": "you up?" },
+    { "sender": "you", "timestamp": "23:39", "text": "always 🌙" }
+  ],
+  "messages": [
+    {
+      "sender": "...",
+      "reply_delay": 0.9,
+      "typing_duration": 2.0,
+      "timestamp": "23:41",
+      "text": "I was reading this amazing story yesterday."
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.6,
+      "typing_duration": 2.2,
+      "timestamp": "23:41",
+      "text": "It had absolutely no context, yet it made sense."
+    },
+    {
+      "sender": "you",
+      "reply_delay": 1.4,
+      "typing_duration": 1.1,
+      "timestamp": "23:41",
+      "text": "What do you mean?"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 1.8,
+      "typing_duration": 2.8,
+      "timestamp": "23:42",
+      "text": "The writer didn't care to explain who was talking to whom,"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.5,
+      "typing_duration": 1.4,
+      "timestamp": "23:42",
+      "text": "how were they related,"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.6,
+      "typing_duration": 1.3,
+      "timestamp": "23:42",
+      "text": "even their gendres!"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.4,
+      "typing_duration": 0.7,
+      "timestamp": "23:42",
+      "text": "*genders"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.8,
+      "typing_duration": 1.5,
+      "timestamp": "23:42",
+      "text": "And yet, it didn't matter."
+    },
+    {
+      "sender": "you",
+      "reply_delay": 2.2,
+      "typing_duration": 2.0,
+      "timestamp": "23:43",
+      "text": "So what was special about the story?"
+    },
+    {
+      "sender": "you",
+      "reply_delay": 0.7,
+      "typing_duration": 1.8,
+      "timestamp": "23:43",
+      "text": "The plot, the twist, the metaphor?"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 2.6,
+      "typing_duration": 0.8,
+      "timestamp": "23:43",
+      "text": "Nothing."
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.9,
+      "typing_duration": 2.4,
+      "timestamp": "23:43",
+      "text": "It was just a conversation, like you and me,"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.6,
+      "typing_duration": 1.8,
+      "timestamp": "23:43",
+      "text": "having this conversation right now."
+    },
+    {
+      "sender": "...",
+      "reply_delay": 1.1,
+      "typing_duration": 3.4,
+      "timestamp": "23:44",
+      "text": "For a change, it felt good to read and not worry about the consequences."
+    },
+    {
+      "sender": "you",
+      "reply_delay": 1.9,
+      "typing_duration": 1.4,
+      "timestamp": "23:44",
+      "text": "But that achieves nothing."
+    },
+    {
+      "sender": "you",
+      "reply_delay": 0.6,
+      "typing_duration": 1.6,
+      "timestamp": "23:44",
+      "text": "Why would you read such a story?"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 2.4,
+      "typing_duration": 1.7,
+      "timestamp": "23:45",
+      "text": "Maybe that's what was different."
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.8,
+      "typing_duration": 2.3,
+      "timestamp": "23:45",
+      "text": "It didn't bother to burden me with the characters."
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.7,
+      "typing_duration": 2.0,
+      "timestamp": "23:45",
+      "text": "The conversation, meaningless as it may be,"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.6,
+      "typing_duration": 2.0,
+      "timestamp": "23:45",
+      "text": "kept me hooked till the last sentence."
+    },
+    {
+      "sender": "...",
+      "reply_delay": 1.2,
+      "typing_duration": 1.8,
+      "timestamp": "23:46",
+      "text": "Why don't you write something similar?"
+    },
+    {
+      "sender": "you",
+      "reply_delay": 1.6,
+      "typing_duration": 1.1,
+      "timestamp": "23:46",
+      "text": "Why would I do that?"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 3.1,
+      "typing_duration": 2.2,
+      "timestamp": "23:47",
+      "text": "The best kind of magic is no magic at all."
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.9,
+      "typing_duration": 3.2,
+      "timestamp": "23:47",
+      "text": "The secret lies in front of people but it's too simple to be noticed."
+    },
+    {
+      "sender": "...",
+      "reply_delay": 1.0,
+      "typing_duration": 1.6,
+      "timestamp": "23:47",
+      "text": "Maybe you can write about us"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.6,
+      "typing_duration": 1.9,
+      "timestamp": "23:48",
+      "text": "without mentioning about who we are."
+    },
+    {
+      "sender": "you",
+      "reply_delay": 3.8,
+      "typing_duration": 2.3,
+      "timestamp": "23:48",
+      "text": "Are you scared people will find out who we are?"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 2.9,
+      "typing_duration": 2.0,
+      "timestamp": "23:49",
+      "text": "A part of me wants to show the people"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.8,
+      "typing_duration": 3.8,
+      "timestamp": "23:49",
+      "text": "it's these labels that make you look at the same emotions and judge them accordingly."
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.9,
+      "typing_duration": 2.1,
+      "timestamp": "23:49",
+      "text": "People suffer because society shuns them"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 0.7,
+      "typing_duration": 3.2,
+      "timestamp": "23:50",
+      "text": "and then end up becoming a part of the society to shun someone else."
+    },
+    {
+      "sender": "you",
+      "reply_delay": 4.4,
+      "typing_duration": 2.2,
+      "timestamp": "23:51",
+      "text": "We've had this conversation so many times."
+    },
+    {
+      "sender": "you",
+      "reply_delay": 0.8,
+      "typing_duration": 1.5,
+      "timestamp": "23:51",
+      "text": "It never leads to anything."
+    },
+    {
+      "sender": "you",
+      "reply_delay": 1.7,
+      "typing_duration": 1.9,
+      "timestamp": "23:51",
+      "text": "What's even the point of having it?"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 5.8,
+      "typing_duration": 0.9,
+      "timestamp": "23:53",
+      "text": "Nothing!"
+    },
+    {
+      "sender": "...",
+      "reply_delay": 1.6,
+      "typing_duration": 1.8,
+      "timestamp": "23:53",
+      "text": "I just wanted to talk to you."
+    }
+  ]
+}
